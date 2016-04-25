@@ -1,0 +1,186 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1605px) {
+      
+}
+  
+
+
+@media only screen and (max-width : 1200px) {
+   
+}
+
+  
+
+@media only screen and (max-width : 1000px) {
+ 
+}
+
+  
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+    
+}
+@media only screen and (max-width : 920px) {
+
+   .card{
+    width: 50%;
+   }
+   .card-content img{
+    width: 100%;
+    min-height: 160px;
+   }
+   .three-column.four-column {
+    width: 25%;
+  }  
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .right-content, .information{
+    text-align: center;
+    float: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .logo{
+    float:none;
+    margin:0 auto;
+  }
+  .cart, .form-search{
+    width: 50%;
+    display: inline-block;
+  }
+  
+  div[class*="three-column"]{
+    width: 100%;
+    padding: 12px 0;
+    display: block;
+  }
+  .three-column.four-column,
+  .three-column-left.four-column{
+    width: 50%;
+    text-align: center;
+    display: inline-block;;
+  }
+  .footer-menu .three-column:last-of-type{
+    padding-left: 0;
+  }
+
+  .footer-menu{
+    height: 168px;    
+  }
+  .footer-menu + .content{
+    font-size: 0;
+  }
+  .footer-menu div[class*="three-column"]{
+    margin-bottom: 0;
+    text-align: center;
+  } 
+}
+ 
+
+@media only screen and (max-width : 630px) {
+	.main-menu li{
+    display: block;
+    text-align: center;
+    margin: 0;
+    border-bottom: 0.5px solid;
+  }
+  .main-menu li:hover .menu-items{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+  .header-top{
+    height: 96px;
+  }
+  .half-width-left, .half-width-right{
+  width: 100%;
+  box-sizing: border-box;
+  display: table;
+  height: 50%;
+  float: none;
+  text-align: center;
+  }
+  .sprite-trustPilot{
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .cart, .form-search{
+    width: 85%;
+  }
+
+  .card a{
+    display: block;
+    text-align: center;
+    margin-bottom: 7px;
+    width: 100%;
+    box-sizing: border-box;;
+  }
+  .card{
+    width: 100%;
+  }
+  .slider{
+    display: none;
+  }
+
+  .three-column.four-column h3,
+  .three-column-left.four-column h3,
+  .three-column.four-column,
+  .three-column-left.four-column,
+  .footer ul {
+    width: 100%;
+    text-align: center;
+  }
+
+.footer .four-column h3, .footer ul {
+    padding: 0;
+
+}
+
+  .three-column.four-column h3,
+  .three-column-left.four-column h3,
+  .three-column.four-column,
+  .three-column-left.four-column{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
